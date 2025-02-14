@@ -67,11 +67,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1     &kp F2       &kp F3     &kp F4        &kp F5                         &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp DELETE
-&trans  &kp EXCL   &kp AT_SIGN  &kp POUND  &kp DOLLAR    &kp PERCENT                    &kp LBRC  &kp RBRC  &trans    &trans     &kp F11   &kp F12
-&trans  &kp CARET  &kp AMPS     &kp ASTRK  &kp UNDER     &trans                         &kp LPAR  &kp RPAR  &trans    &trans     &trans    &kp PIPE
-&trans  &trans     &kp MINUS    &kp PLUS   &kp KP_EQUAL  &trans       &trans    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH  &kp KP_DIVIDE
-                   &trans       &trans     &trans        &trans       &trans    &trans  &trans    &trans    &trans    &trans
+&trans        &kp F1     &kp F2       &kp F3     &kp F4        &kp F5                         &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp DELETE
+&trans        &kp EXCL   &kp AT_SIGN  &kp POUND  &kp DOLLAR    &kp PERCENT                    &kp LBRC  &kp RBRC  &trans    &trans     &kp F11   &kp F12
+&kp CAPSLOCK  &kp CARET  &kp AMPS     &kp ASTRK  &kp UNDER     &trans                         &kp LPAR  &kp RPAR  &trans    &trans     &trans    &kp PIPE
+&trans        &trans     &kp MINUS    &kp PLUS   &kp KP_EQUAL  &trans       &trans    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH  &kp KP_DIVIDE
+                         &trans       &trans     &trans        &trans       &trans    &trans  &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings =
