@@ -53,11 +53,11 @@
             //               | GUI | DEL  |LSHIFT| LOWER|  ENTER |  | SPACE | RAISE|BACKSPC| ALT   | GUI  |
 
             bindings = <
-&mt GRAVE ESC      &mt N6 N1    &mt N7 N2     &mt N8 N3     &mt N9 N4         &mt N0 N5                          &mt LA(LEFT_ARROW) LEFT_ARROW  &mt LC(DOWN_ARROW) DOWN_ARROW  &mt LC(UP_ARROW) UP_ARROW  &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL  &kp BACKSPACE
-&tab_caps          &kp Q        &kp W         &kp E         &kp R             &kp T                              &kp Y                          &kp U                          &mt LC(UP_ARROW) I         &kp O                            &kp P      &kp LEFT_BRACKET
-&kp LEFT_SHIFT     &mt LSHFT A  &mt LGUI S    &mt LALT D    &mt LCTRL F       &kp G                              &kp H                          &mt LC(LEFT_ARROW) J           &mt LC(DOWN_ARROW) K       &mt LC(RIGHT_ARROW) L            &kp SEMI   &kp SQT
-&kp K_APPLICATION  &kp Z        &kp X         &kp C         &kp V             &kp B      &kp C_MUTE    &kp C_PP  &kp N                          &kp M                          &kp COMMA                  &kp DOT                          &kp SLASH  &mo 4
-                                &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2      &kp SPACE     &kp RET   &sl 1                          &kp KP_DOT                     &kp MINUS                  &kp EQUAL
+&mt GRAVE ESC   &mt N6 N1    &mt N7 N2     &mt N8 N3     &mt N9 N4         &mt N0 N5                          &mt LA(LEFT_ARROW) LEFT_ARROW  &mt LC(DOWN_ARROW) DOWN_ARROW  &mt LC(UP_ARROW) UP_ARROW  &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL             &kp BACKSPACE
+&tab_caps       &kp Q        &kp W         &kp E         &kp R             &kp T                              &kp Y                          &kp U                          &mt LC(UP_ARROW) I         &kp O                            &kp P                 &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &mt LSHFT A  &mt LGUI S    &mt LALT D    &mt LCTRL F       &kp G                              &kp H                          &mt RCTRL J                    &mt RALT K                 &mt RGUI L                       &mt RIGHT_SHIFT SEMI  &kp SQT
+&kp LG(SPACE)   &kp Z        &kp X         &kp C         &kp V             &kp B      &kp C_MUTE    &kp C_PP  &kp N                          &kp M                          &kp COMMA                  &kp DOT                          &kp SLASH             &mo 4
+                             &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2      &kp SPACE     &kp RET   &sl 1                          &kp KP_DOT                     &kp MINUS                  &kp EQUAL
             >;
 
             sensor-bindings =
