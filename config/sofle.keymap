@@ -22,8 +22,8 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <2 3>;
-            then-layer = <4>;
+            if-layers = <3 4>;
+            then-layer = <1>;
         };
     };
 
@@ -59,13 +59,27 @@
 &hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3    &hrm N9 N4        &hrm N0 N5                          &mt LA(LEFT_ARROW) LEFT_ARROW  &mt LA(DOWN_ARROW) DOWN_ARROW  &mt LA(UP_ARROW) UP_ARROW  &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
 &kp TAB         &kp Q         &kp W         &kp E         &kp R             &kp T                               &kp Y                          &kp U                          &kp I                      &kp O                            &kp P                  &hrm RBKT LEFT_BRACKET
 &kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D   &hrm LCTRL F      &kp G                               &kp H                          &hrm RCTRL J                   &hrm RALT K                &hrm RGUI L                      &hrm RIGHT_SHIFT SEMI  &kp SQT
-&kp LG(SPACE)   &kp Z         &kp X         &kp C         &kp V             &kp B       &kp C_MUTE    &kp C_PP  &kp N                          &kp M                          &kp COMMA                  &kp DOT                          &kp SLASH              &tog 4
-                              &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 1       &kp SPACE     &kp RET   &sl 2                          &kp KP_DOT                     &kp MINUS                  &kp GRAVE
+&kp LG(SPACE)   &kp Z         &kp X         &kp C         &kp V             &kp B       &kp C_MUTE    &kp C_PP  &kp N                          &kp M                          &kp COMMA                  &kp DOT                          &kp SLASH              &tog 1
+                              &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2       &kp SPACE     &kp RET   &sl 3                          &kp KP_DOT                     &kp MINUS                  &kp GRAVE
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
                 <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        gaming {
+            bindings = <
+&kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                            &kp N6  &kp N7    &kp N8    &kp N9     &kp N0    &kp BSLH
+&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                             &kp Y   &kp U     &kp I     &kp O      &kp P     &kp EQUAL
+&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                             &kp H   &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
+&kp CAPS   &kp Z   &kp X     &kp C     &kp V      &kp B     &kp GRAVE    &kp MINUS  &kp N   &kp M     &kp UP    &kp COMMA  &kp DOT   &tog 1
+                   &kp LGUI  &kp LALT  &kp LCTRL  &kp BSPC  &kp SPACE    &kp RET    &kp     &kp LEFT  &kp DOWN  &kp RIGHT
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp PG_UP PAGE_DOWN>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         raise_layer {
@@ -130,16 +144,6 @@
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                                      &none  &none  &none  &none  &none  &none
 &none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans           &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp KP_N7  &kp KP_NUMBER_8  &kp KP_N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp KP_N4  &kp KP_NUMBER_5  &kp KP_N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3  &trans  &tog 4
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans           &trans
             >;
         };
     };
