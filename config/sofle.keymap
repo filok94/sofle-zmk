@@ -49,11 +49,11 @@
             //               | GUI | DEL  |LSHIFT| LOWER|  ENTER |  | SPACE | RAISE|BACKSPC| ALT   | GUI  |
 
             bindings = <
-&hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3    &hrm N9 N4        &hrm N0 N5                          &mt LA(LEFT_ARROW) LEFT_ARROW  &mt LA(DOWN_ARROW) DOWN_ARROW  &mt LA(UP_ARROW) UP_ARROW  &mt LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
-&kp TAB         &kp Q         &kp W         &kp E         &kp R             &kp T                               &kp Y                          &kp U                          &kp I                      &kp O                            &kp P                  &hrm RBKT LEFT_BRACKET
-&kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D   &hrm LCTRL F      &kp G                               &kp H                          &hrm RCTRL J                   &hrm RALT K                &hrm RGUI L                      &hrm RIGHT_SHIFT SEMI  &kp SQT
-&kp LG(SPACE)   &kp Z         &kp X         &kp C         &kp V             &kp B       &kp C_MUTE    &kp C_PP  &kp N                          &kp M                          &kp COMMA                  &kp DOT                          &kp SLASH              &tog 1
-                              &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 2       &kp SPACE     &kp RET   &sl 3                          &kp KP_DOT                     &kp MINUS                  &kp GRAVE
+&hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3   &hrm N9 N4    &hrm N0 N5                          &hrm LA(DOWN) DOWN  &hrm LA(LEFT_ARROW) LEFT_ARROW  &hrm LA(UP_ARROW) UP_ARROW  &hrm LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
+&kp TAB         &kp Q         &kp W         &kp E        &kp R         &kp T                               &kp Y               &kp U                           &kp I                       &kp O                             &kp P                  &hrm RBKT LEFT_BRACKET
+&kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D  &hrm LCTRL F  &kp G                               &kp H               &hrm RCTRL J                    &hrm RALT K                 &hrm RGUI L                       &hrm RIGHT_SHIFT SEMI  &kp SQT
+&kp LG(SPACE)   &kp Z         &kp X         &kp C        &kp V         &kp B       &kp C_MUTE    &kp C_PP  &kp N               &kp M                           &kp COMMA                   &kp DOT                           &kp SLASH              &tog 1
+                              &kp LEFT_GUI  &kp EQUAL    &kp LSHFT     &mo 2       &kp SPACE     &kp RET   &sl 3               &kp KP_DOT                      &kp MINUS                   &kp GRAVE
             >;
 
             sensor-bindings =
@@ -63,11 +63,11 @@
 
         gaming {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6        &kp N7    &kp N8    &kp N9     &kp N0    &kp BSLH
-&kp TAB    &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y         &kp U     &kp I     &kp O      &kp P     &kp EQUAL
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H         &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V      &kp B          &kp GRAVE    &kp MINUS  &kp N         &kp M     &kp UP    &kp COMMA  &kp DOT   &tog 1
-                   &kp F1  &kp LALT  &kp LCTRL  &kp BACKSPACE  &kp SPACE    &kp RET    &kp LEFT_WIN  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6        &kp N7    &kp N8    &kp N9     &kp N0    &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y         &kp U     &kp I     &kp O      &kp P     &kp EQUAL
+&kp CAPSLOCK    &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H         &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C     &kp V      &kp B          &kp GRAVE    &kp MINUS  &kp N         &kp M     &kp UP    &kp COMMA  &kp DOT   &tog 1
+                        &kp F1  &kp LALT  &kp LCTRL  &kp BACKSPACE  &kp SPACE    &kp RET    &kp LEFT_WIN  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =
