@@ -49,11 +49,11 @@
             //               | GUI | DEL  |LSHIFT| LOWER|  ENTER |  | SPACE | RAISE|BACKSPC| ALT   | GUI  |
 
             bindings = <
-&hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3   &hrm N9 N4    &hrm N0 N5                          &hrm LA(DOWN) DOWN  &hrm LA(LEFT_ARROW) LEFT_ARROW  &hrm LA(UP_ARROW) UP_ARROW  &hrm LA(RIGHT_ARROW) RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
-&kp TAB         &kp Q         &kp W         &kp E        &kp R         &kp T                               &kp Y               &kp U                           &kp I                       &kp O                             &kp P                  &hrm RBKT LEFT_BRACKET
-&kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D  &hrm LCTRL F  &kp G                               &kp H               &hrm RCTRL J                    &hrm RALT K                 &hrm RGUI L                       &hrm RIGHT_SHIFT SEMI  &kp SQT
-&kp LG(SPACE)   &kp Z         &kp X         &kp C        &kp V         &kp B       &kp C_MUTE    &kp C_PP  &kp N               &kp M                           &kp COMMA                   &kp DOT                           &kp SLASH              &tog 1
-                              &kp LEFT_GUI  &kp EQUAL    &kp LSHFT     &mo 2       &kp SPACE     &kp RET   &sl 3               &kp KP_DOT                      &kp MINUS                   &kp GRAVE
+&hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3   &hrm N9 N4    &hrm N0 N5                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
+&kp TAB         &kp Q         &kp W         &kp E        &kp R         &kp T                               &kp Y           &kp U           &kp I         &kp O            &kp P                  &hrm RBKT LEFT_BRACKET
+&kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D  &hrm LCTRL F  &kp G                               &kp H           &hrm RCTRL J    &hrm RALT K   &hrm RGUI L      &hrm RIGHT_SHIFT SEMI  &kp SQT
+&kp LG(SPACE)   &kp Z         &kp X         &kp C        &kp V         &kp B       &kp C_MUTE    &kp C_PP  &kp N           &kp M           &kp COMMA     &kp DOT          &kp SLASH              &tog 1
+                              &kp LEFT_GUI  &kp EQUAL    &kp LSHFT     &mo 2       &kp SPACE     &kp RET   &sl 3           &kp KP_DOT      &kp MINUS     &kp GRAVE
             >;
 
             sensor-bindings =
