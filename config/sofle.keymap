@@ -49,11 +49,11 @@
             //               | GUI | DEL  |LSHIFT| LOWER|  ENTER |  | SPACE | RAISE|BACKSPC| ALT   | GUI  |
 
             bindings = <
-&hrm GRAVE ESC  &hrm N6 N1    &hrm N7 N2    &hrm N8 N3   &hrm N9 N4    &hrm N0 N5                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp EQUAL              &kp BACKSPACE
-&kp TAB         &kp Q         &kp W         &kp E        &kp R         &kp T                               &kp Y           &kp U           &kp I         &kp O            &kp P                  &hrm RBKT LEFT_BRACKET
-&kp LEFT_SHIFT  &hrm LSHFT A  &hrm LGUI S   &hrm LALT D  &hrm LCTRL F  &kp G                               &kp H           &hrm RCTRL J    &hrm RALT K   &hrm RGUI L      &hrm RIGHT_SHIFT SEMI  &kp SQT
-&kp LG(SPACE)   &kp Z         &kp X         &kp C        &kp V         &kp B       &kp C_MUTE    &kp C_PP  &kp N           &kp M           &kp COMMA     &kp DOT          &kp SLASH              &tog 1
-                              &kp LEFT_GUI  &kp EQUAL    &kp LSHFT     &mo 2       &kp SPACE     &kp RET   &sl 3           &kp KP_DOT      &kp MINUS     &kp GRAVE
+&kp ESC        &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                             &kp N6  &kp N7        &kp N8       &kp N9       &kp N0                 &kp BACKSPACE
+&kp TAB        &kp Q         &kp W        &kp E        &kp R         &kp T                              &kp Y   &kp U         &kp I        &kp O        &kp P                  &hrm RBKT LEFT_BRACKET
+&mo 2          &hrm LSHFT A  &hrm LGUI S  &hrm LALT D  &hrm LCTRL F  &kp G                              &kp H   &hrm RCTRL J  &hrm RALT K  &hrm RGUI L  &hrm RIGHT_SHIFT SEMI  &kp SQT
+&kp LG(SPACE)  &kp Z         &kp X        &kp C        &kp V         &kp B      &kp C_MUTE    &kp C_PP  &kp N   &kp M         &kp COMMA    &kp DOT      &kp SLASH              &tog 1
+                             &mo 2        &kp EQUAL    &kp KP_COMMA  &kp LSHFT  &kp SPACE     &kp RET   &sl 3   &kp KP_DOT    &kp MINUS    &kp GRAVE
             >;
 
             sensor-bindings =
@@ -86,11 +86,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &studio_unlock  &trans            &trans      &trans     &trans   &trans
-&trans      &trans        &trans        &trans        &trans        &trans                          &kp PG_UP       &kp HOME          &kp UP      &kp END    &none    &trans
-&trans      &trans        &trans        &trans        &trans        &trans                          &kp PG_DN       &kp LEFT          &kp DOWN    &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT  &trans     &none    &none
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans          &trans            &trans      &trans
+&trans  &trans  &trans      &trans  &trans  &trans                    &studio_unlock  &kp N7  &kp N8  &kp N9           &trans  &bt BT_SEL 0
+&trans  &trans  &trans      &trans  &trans  &trans                    &trans          &kp N4  &kp N5  &kp N6           &none   &bt BT_SEL 1
+&trans  &trans  &trans      &trans  &trans  &trans                    &trans          &kp N1  &kp N2  &kp N3           &trans  &bt BT_SEL 2
+&trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans  &kp KP_NUMBER_0  &none   &bt BT_SEL 3
+                &bt BT_CLR  &trans  &trans  &trans  &trans    &trans  &trans          &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -110,11 +110,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans        &kp F1        &kp F2       &kp F3     &kp F4        &kp F5                         &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp DELETE
+&kp GRAVE     &kp F1        &kp F2       &kp F3     &kp F4        &kp F5                         &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp DELETE
 &caps_word    &kp EXCL      &kp AT_SIGN  &kp POUND  &kp DOLLAR    &kp PERCENT                    &kp LBRC  &kp RBRC  &trans    &trans     &kp F11   &kp F12
-&kp CAPSLOCK  &kp QUESTION  &kp AMPS     &kp ASTRK  &kp UNDER     &kp CARET                      &kp LPAR  &kp RPAR  &trans    &trans     &trans    &kp PIPE
-&trans        &trans        &kp MINUS    &kp PLUS   &kp KP_EQUAL  &trans       &trans    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH  &kp KP_DIVIDE
-                            &trans       &trans     &trans        &trans       &trans    &trans  &trans    &trans    &trans    &trans
+&kp CAPSLOCK  &kp QUESTION  &kp AMPS     &kp ASTRK  &kp UNDER     &kp CARET                      &kp LPAR  &kp RPAR  &trans    &kp SEMI   &trans    &kp PIPE
+&trans        &trans        &kp MINUS    &kp PLUS   &kp KP_EQUAL  &trans       &trans    &trans  &kp LBKT  &kp RBKT  &kp UP    &kp COLON  &kp BSLH  &kp KP_DIVIDE
+                            &trans       &trans     &trans        &trans       &trans    &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =
