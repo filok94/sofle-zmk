@@ -35,9 +35,9 @@
             quick-tap-ms = <0>;
         };
 
-        mouse: mouse {
+        mouse_move: mouse_move {
             compatible = "zmk,behavior-sensor-rotate-var";
-            label = "MOUSE";
+            label = "MOUSE_MOVE";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
         };
@@ -66,7 +66,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse MOVE_Y(5) MOVE_Y(-5)>;
+                <&mouse_move MOVE_Y(5) MOVE_Y(-5)>;
         };
 
         gaming {
@@ -80,7 +80,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+                <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         raise_layer {
@@ -103,7 +103,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&mouse MOVE_X(5) MOVE_X(-5)>;
+                <&mouse_move MOVE_X(5) MOVE_X(-5)>;
         };
 
         lower_layer {
@@ -126,8 +126,8 @@
             >;
 
             sensor-bindings =
-                <&mouse SCRL_LEFT SCRL_RIGHT>,
-                <&mouse MOVE_Y(10) MOVE_Y(-10)>;
+                <&mouse_move SCRL_LEFT SCRL_RIGHT>,
+                <&mouse_move MOVE_Y(10) MOVE_Y(-10)>;
         };
 
         adjust_layer {
