@@ -144,7 +144,7 @@
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans                          &trans  &trans     &trans         &trans  &trans  &trans
 &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans                          &trans  &kp SLASH  &kp BACKSLASH  &trans  &trans  &trans
 &trans  &trans                &trans                 &trans  &trans  &trans  &trans       &trans     &trans  &trans     &trans         &trans  &trans  &trans
-                              &trans                 &trans  &trans  &trans  &kp MINUS    &kp EQUAL  &trans  &trans     &trans         &trans
+                              &trans                 &trans  &trans  &trans  &kp MINUS    &kp EQUAL  &trans  &trans     &trans         &studio_unlock
             >;
         };
     };
